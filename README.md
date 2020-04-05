@@ -58,13 +58,7 @@
 	</tr>
 </tbody>
 </table>
-
-0.Git init<br>
-1.Git clone https://github.com/agustinafassina/loginnode_af_v0.1.0 <br>
-2.Configuration of database -> modelus/connections.js.<br>
-    node connections.js -> check connection bd.<br>
-3.Run -> nodemon index.js<br>
-
+<BR>
 <h3>Packages</h3>
 <br>
 <table>
@@ -137,5 +131,13 @@ CREATE TABLE `users` (
 
 <br>
 
+<p>
+0.Git init<br>
+1.Git clone https://github.com/agustinafassina/loginnode_af_v0.1.0 <br>
+2.Configuration of database -> modelus/connections.js.<br>
+    node connections.js -> check connection bd.<br>
+3.Run -> nodemon index.js<br>
+
+</p>
 <hr>
 By Agustina Fassina
