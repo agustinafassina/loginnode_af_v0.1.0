@@ -1,12 +1,7 @@
 # loginnode_af_v0.1.0
-ApiRest with node
+<H3>API REST WITH NODE.JS AND JWT<H3>
 <br><br>
-<b>Requirements:</b><br>
-  Installed (view version)<br>
-    node -v<br>
-    npm -v<br>
-<br>
-<br>
+
 <table>
 	<thead>
 	<tr>
@@ -26,12 +21,49 @@ ApiRest with node
 </tbody>
 </table>
 <br>
-<br>
+
+<table>
+	<thead>
+	<tr>
+	<th>Method</th>
+	<th>Action</th>
+	<th>Ready?</th>
+	</tr>
+	</thead>
+<tbody>
+	<tr>
+		<td>GET</td>
+		<td>../users</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>../users/idUser</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>../users</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>UPDATE</td>
+		<td>../users/idUser</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>../authenticate</td>
+		<td>Yes</td>
+	</tr>
+</tbody>
+</table>
+
 0.Git init<br>
 1.Git clone https://github.com/agustinafassina/loginnode_af_v0.1.0 <br>
 2.Configuration of database -> modelus/connections.js.<br>
     node connections.js -> check connection bd.<br>
-3.Run -> index.js<br>
+3.Run -> nodemon index.js<br>
 
 <h3>Packages</h3>
 <br>
@@ -87,8 +119,25 @@ ApiRest with node
 </table>
 
 <br>
-
-a
+<h4>DATABASE<h4>
 <br>
+<p> 
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `lastname` varchar(100) DEFAULT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `email` varchar(250) DEFAULT NULL,
+  `created_on` timestamp NULL DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `token` varchar(2500) DEFAULT NULL,
+  `date_expiration` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+	
+</p>
+
+<br>
+
 <hr>
 By Agustina Fassina
