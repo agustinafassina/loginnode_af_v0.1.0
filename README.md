@@ -3,14 +3,14 @@
 <br><br>
 
 <table>
-	<thead>
+   <thead>
 	<tr>
 	<th>API</th>
 	<th>Description</th>
 	<th>Auth</th>
 	<th>HTTPS</th>
 	</tr>
-	</thead>
+  </thead>
 <tbody>
 	<tr>
 	<td><a href="https://github.com/agustinafassina/loginnode_af_v0.1.0">Api with Node.js and JWT</a></td>
@@ -121,7 +121,7 @@
 <br>
 <h4>DATABASE<h4>
 <br>
-<p> 
+
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) DEFAULT NULL,
@@ -134,8 +134,6 @@ CREATE TABLE `users` (
   `date_expiration` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
-	
-</p>
 
 <br>
 
