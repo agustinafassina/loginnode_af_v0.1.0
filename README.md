@@ -1,7 +1,6 @@
 # loginnode_af_v0.1.0
 <H3>API REST WITH NODE.JS AND JWT</H3>
-<br><br>
-
+<br>
 <table>
    <thead>
 	<tr>
