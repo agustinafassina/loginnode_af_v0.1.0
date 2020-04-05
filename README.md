@@ -113,9 +113,9 @@
 </table>
 
 <br>
-<h4>DATABASE<h4>
+<h4>DATABASE</h4>
 <br>
-
+<p>
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) DEFAULT NULL,
@@ -128,7 +128,7 @@ CREATE TABLE `users` (
   `date_expiration` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
-
+</p>
 <br>
 
 <p>
